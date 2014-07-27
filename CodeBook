@@ -1,4 +1,5 @@
-Below is a list of definitions for the variable names of the output. Further down is a list of all objects used in my code with a description. 
+Below is a list of definitions for the variable names of the output. Further down is a list of all objects 
+used in my code with a description. 
 
 Activity
 Subject
@@ -9,11 +10,13 @@ tBodyAcc.std...X
 tBodyAcc.std...Y
 tBodyAcc.std...Z
 
-The results for the last 6 were given by calculating the average of each for all instaces of a given subject completing a distinct activity. i.e  a result in tBodyAcc.mean...X may be the average for all mean values of subject 2 recorded while completing the activity walking.
+The results for the last 6 were given by calculating the average of each for all instaces of a given subject completing 
+a distinct activity. i.e  a result in tBodyAcc.mean...X may be the average for all mean values of subject 2 
+recorded while completing the activity walking.
 
 
 features <- this is a list from features.txt in top level directory used as column names when reading data
-actlabels <- this is a list from activity_labels.txt in top level directory which has 6 actvity descriptions relating to activity codes
+actlabels <- this is a list from activity_labels.txt in top level which has 6 actvity descriptions relating to activity codes
 trainact <- this is the actvity list from train/y_train.txt which has an ordered list of actvity codes for the train data
 traindata <- data from train/X_train.txt which is all the measurements for the train data
 trainsubj <- data from train/subject_train.txt which is an ordered list of subjects relating to measurements in traindata 
