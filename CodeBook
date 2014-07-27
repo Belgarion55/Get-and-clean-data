@@ -22,7 +22,7 @@ traindata <- data from train/X_train.txt which is all the measurements for the t
 trainsubj <- data from train/subject_train.txt which is an ordered list of subjects relating to measurements in traindata 
 testact <- this is the actvity list from test/y_train.txt which has an ordered list of actvity codes for the test data
 testdata <- data from test/X_train.txt which is all the measurements for the test data
-testsubj <- <- data from train/subject_train.txt which is an ordered list of subjects relating to measurements in testdata 
+testsubj <- data from train/subject_train.txt which is an ordered list of subjects relating to measurements in testdata 
 tidytrain <- combination of all data for the train data
 tidytest <- combination of all data for the test data
 mergedata <- the completly merged data, test first then train
